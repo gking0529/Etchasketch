@@ -1,0 +1,45 @@
+body {
+    background-color: #ddd;
+    text-align: center;
+  }
+  
+  h1 {
+    font-weight: bold;
+  }
+  
+  #controls {
+    margin-bottom: 20px;
+  }
+  
+  #controls button {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin-right: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  #black-btn {
+    background-color: black;
+    color: white;
+  }
+  
+  #rainbow-btn {
+    background-color: #F94D4D;
+    color: white;
+  }
+  
+  #container {
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    width: 800px;
+    height: 800px;
+    margin: 0 auto;
+    border: 2px solid black; /* Border around the grid */
+  }
+  
+  .cell {
+    border: 1px solid #ddd;
+  }
+  
